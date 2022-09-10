@@ -1,0 +1,36 @@
+body{
+    animation: changeBg 10s linear infinite;
+    color: lightgray;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ }
+    @keyframes changeBg {
+        0% {
+            background-color: black;
+        }
+        
+        50%{
+            background-color: darkblue;
+              }
+            
+              100%{
+                background-color: black;
+               }   
+            
+        
+    }
+    p{
+        font-size: 20px;
+    }
+    p{
+        animation: forwards; color:skyblue; 
+    }
+    h1{
+        color: skyblue;;
+    }
+    h2{ 
+        color: skyblue;
+    }
+    
